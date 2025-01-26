@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.choices{
+    justify-content: center; 
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    border-color: black;
+    background-color: aquamarine;
+    border: #292727;
+}
+.heading{
+    background-color: rgb(73, 63, 63);
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+}
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user-comp{
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+.msg{
+    margin: 5rem;
+}
+#para-msg{
+  background-color: #081b31;
+  color: #fff;
+  font-size: 2rem;
+  display: inline;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
